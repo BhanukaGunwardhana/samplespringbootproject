@@ -9,4 +9,10 @@ public class Controller {
     public void getHi(){
         System.out.println("Hi");
     }
+
+    @GetMapping("/hi")
+    public void getBye(){
+        System.out.println("Bye");
+    }
+
 }
