@@ -6,4 +6,6 @@ public class Service {
     }
 
     public String getBye(){return  "Bye";}
+
+    public void  method(){}
 }
